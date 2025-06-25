@@ -1,0 +1,40 @@
+{
+  "name": "smart-greenhouse-advisor-backend",
+  "version": "1.0.0",
+  "description": "Advanced greenhouse optimization system using weather data and agricultural physics",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint .",
+    "format": "prettier --write ."
+  },
+  "keywords": [
+    "greenhouse",
+    "agriculture",
+    "weather",
+    "optimization",
+    "farming",
+    "express",
+    "nodejs"
+  ],
+  "author": "Vincent Kipchirchir",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "axios": "^1.6.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1",
+    "eslint": "^8.54.0",
+    "prettier": "^3.1.0"
+  },
+  "engines": {
+    "node": ">=16.0.0",
+    "npm": ">=8.0.0"
+  }
+}
