@@ -7,6 +7,7 @@ import weatherRoutes from './routes/weatherRoutes.js';
 // Load environment variables
 dotenv.config();
 
+
 const app = express();
 const PORT = process.env.PORT || 5000;
 
