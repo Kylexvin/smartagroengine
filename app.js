@@ -4,6 +4,8 @@ import dotenv from 'dotenv';
 import weatherRoutes from './routes/weatherRoutes.js';
 
 
+
+
 // Load environment variables
 dotenv.config();
 
